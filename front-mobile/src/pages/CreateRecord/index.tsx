@@ -8,7 +8,7 @@ import RNPickerSelect from 'react-native-picker-select';
 import axios from 'axios';
 import { RectButton } from 'react-native-gesture-handler';
 
-const BASE_URL = 'http://192.168.0.3:8080';
+const BASE_URL = 'https://games-survey-dev-sup.herokuapp.com';
 
 const mapSelectValues = (games: Game[]) => {
   return games.map((game) => ({

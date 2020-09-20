@@ -27,7 +27,7 @@ const initialPieData = {
   series: [],
 };
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://games-survey-dev-sup.herokuapp.com';
 
 const Charts: React.FC = () => {
   const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
